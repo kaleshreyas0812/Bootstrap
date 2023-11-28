@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* .header-area {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    display: block;
+} */
+
+.top-header-area {
+    height: 40px;
+    background-color: #f4f4f4;
+}
+
+.top-header-area .top-header-content a {
+    display: inline-block;
+    font-size: 12px;
+    text-decoration: none;
+    color: #707070;
+
+}
+
+
+.top-header-area .top-header-content a i {
+    color: #00aeef;
+    margin-right: 5px;
+}
+
+.top-header-area .top-header-content a:last-child {
+    margin-left: 30px;
+}
+
+.top-header-social-info a {
+    margin-right: 8px;
+}
+
+.top-header-social-info a i {
+    color: #707070;
+}
+
+.top-header-social-info a i:hover {
+    color: #00aeef;
+}
+
+@media (max-width: 768px) {
+    .top-header-area .top-header-content span {
+        display: none;
+    }
+
+    .top-header-area .top-header-content a:last-child {
+        margin-left: 10px;
+    }
+}
+
+.main-header-area {
+    z-index: 1;
+    height: 80px;
+    width: 100%;
+    background-color: white;
+}
+
+.booking-now:hover {
+    background-color: transparent !important;
+    color: #0d6efd !important;
+}
+
+.img-1,
+.img-2 {
+    height: 634px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img-1 {
+    background-image: url(./img/1.jpg);
+}
+
+.img-2 {
+    background-image: url(./img/2.jpg);
+}
+
+
+.img-1-content,
+.img-2-content {
+    background-image: linear-gradient(to right, hsla(215, 13%, 37%, 0.714), hsla(215, 90%, 27%, 0.873));
+    height: 634px;
+    width: 100%;
+}
+
+.img-1-content h2 {
+    font-size: 65px;
+}
+
+.img-1-content p {
+    font-size: 25px;
+
+}
+
+.img-2-content p {
+    font-size: 25px;
+}
+
+.img-2-content h2 {
+    font-size: 65px;
+}
+
+.carousel-caption {
+    top: 150px !important;
+    bottom: 200px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-caption {
+        top: 80px !important;
+    }
+
+    .img-1-content h2 {
+        font-size: 22px;
+    }
+
+    .img-1-content p {
+        font-size: 16px;
+    }
+
+    .img-2-content h2 {
+        font-size: 22px;
+    }
+
+    .img-2-content p {
+        font-size: 16px;
+    }
+}
+
+.about-us {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+}
+
+.about-us-img {
+    height: 600px;
+    width: 100%;
+}
+
+#about-us-head {
+    font-size: 40px !important;
+}
+
+.about-us-underline {
+    height: 6px !important;
+    width: 13%
+}
+
+#about-us-para {
+    font-size: 19px !important;
+    font-weight: 200;
+
+}
+
+.about-us-icon i {
+    font-size: 50px;
+}
+
+
+@media screen and (max-width:767px) {
+    .first-content-btn {
+        position: relative;
+        left: 25px;
+    }
+
+    .about-us {
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+
+    .about-us-img {
+        height: 400px;
+        width: 100%;
+    }
+
+    #about-us-head {
+        font-size: 30px !important;
+    }
+
+    .about-us-underline {
+        width: 25%;
+        height: 6px !important;
+    }
+
+}
+
+.our-services {
+    background-image: url(./img/13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+}
+
+.our-services-body {
+    background-color: hsla(215, 80%, 10%, 0.825);
+    width: 100%;
+    height: 500px;
+}
+
+.our-services-img {
+    background-image: url('./img/14.jpg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 100%;
+}
+
+
+@media screen and (max-width:767px) {
+    .our-services {
+        height: 860px;
+    }
+
+    .our-services-body {
+        height: 860px;
+    }
+
+    .our-services-img {
+        height: 230px;
+    }
+
+    .our-service-img-cont {
+        margin-top: 2rem !important;
+    }
+
+}
+
+
+@media screen and (max-width:767px) {
+    .pricing-progress {
+        width: 20% !important;
+    }
+}
+
+.read-more:hover {
+    background-color: transparent !important;
+    color: #0d6efd !important;
+}
+
+.book-appointment {
+    background-image: url('./img/Img3.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 800px;
+    width: 100%;
+}
+
+.book-appointment-body {
+    background-color: hsla(215, 80%, 10%, 0.825);
+    width: 100%;
+    height: 800px;
+}
+
+@media screen and (max-width:767px) {
+    .book-appointment {
+        height: 950px;
+    }
+
+    .book-appointment-body {
+        height: 950px;
+    }
+}
+
+/*---------- dentist card icon -------- */
+/* .dentist-card-fb,.dentist-card-tw,.dentist-card-g{
+    font-size: 20px;
+    border-radius: 50%;
+} */
+
+
+.ninth-section {
+    background-image: url('./img/Img7.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+}
+
+
+.ninth-section-body{
+    background-color: hsla(215, 80%, 10%, 0.825);
+    width: 100%;
+    height: 500px;
+}
+
+@media screen and (max-width:767px) {
+    .ninth-section {
+        background-position: center;
+    }
+}
